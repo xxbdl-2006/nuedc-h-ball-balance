@@ -27,3 +27,24 @@ subdir_rules.mk
 # OS
 Thumbs.db
 .DS_Store
+
+# YOLO 训练产物（体积大，不入库；权重可按脚本复现）
+runs/
+weights/
+wheels/
+*.pt
+*.onnx
+*.mlir
+*.npz
+*.engine
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
